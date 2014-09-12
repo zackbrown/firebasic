@@ -1,6 +1,8 @@
 #firebasic
 
-Will turn input.json (intended to be exported from Firebase) into a series of folders with the appropriately named individual json blobs.
+Only need to read?  Remove your Firebase or NoSQL dependencies and serve your data statically!
+
+Will turn input.json (intended to be exported from Firebase or a NoSQL database) into a series of folders with the appropriately named individual json blobs.
 
 Generates a nested series of folders that can be served statically, API-compatibly with Firebase.
 
@@ -49,7 +51,7 @@ into this filesystem structure
 
 When this folder is served statically (e.g. from S3,) it responds to basic GET requests API-compatibly with Firebase.
 
-Useful when you want to remove a Firebase dependency in cases where you only want to use it as a read-only JSON server.
+Useful when you want to remove a Firebase or NoSQL dependency in cases where you only want to use it as a read-only JSON server.
 
 
 ##usage
