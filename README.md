@@ -49,7 +49,7 @@ into this filesystem structure
 
 When this folder is served statically (e.g. from S3,) it responds to basic GET requests API-compatibly with Firebase.
 
-Useful when you want to remove a Firebase dependency in cases where you're really only using it as a read-only JSON server.
+Useful when you want to remove a Firebase dependency in cases where you only want to use it as a read-only JSON server.
 
 
 ##usage
