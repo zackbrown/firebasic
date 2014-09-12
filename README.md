@@ -9,4 +9,5 @@ Think of it as Jekyll for your JSON.
 ##usage
 
 `bundle install`
-`ruby firebasic.rb`
+
+`ruby firebasic.rb input-file.json output-directory`
